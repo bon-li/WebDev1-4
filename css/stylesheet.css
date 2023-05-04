@@ -1,0 +1,157 @@
+header {
+    color: purple;
+    background-color: lightpink;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+body {
+    background-color: beige;
+    text-align:center;
+}
+.container1 {
+    margin-left:10px;
+    margin-right:10px;
+    display: grid;
+    grid-template: 50%;
+    grid-template-areas:"m1 m2"
+                        "mi1 mi2"
+                        "c1 c2"
+                        "cite1 cite2"
+                        "ah1 ah2";                     
+}
+.container2 {
+    display: grid;
+    grid-template: 50%;
+    margin-top:20px;
+    grid-template-areas: "ai1 ain1 ai5 ain5"
+                        "ai2 ain2 ai6 ain6"
+                        "ai3 ain3 ai7 ain7"
+                        "ai4 ain4 ai8 ain8";
+}
+.indexfooter {
+    display: grid;
+    grid-template: 50%;
+    grid-template-areas: "t1 t2";
+}
+#movieimg{
+    width: 200px;
+}
+#actorimg {
+    width: 75px;
+}
+#movie1 {
+    margin-bottom:15px;
+    font-style: bold;
+    font-size: 20pt;
+    grid-area: m1;
+}
+#movie2 {
+    margin-bottom:15px;
+    font-style: bold;
+    font-size: 20pt;
+    grid-area: m2;
+}
+#movieimg1 {
+    grid-area: mi1;
+}
+#movieimg2 {
+    grid-area: mi2;
+}
+#content1 {
+    margin-right:15px;
+    grid-area: c1;
+}
+#content2 {
+    margin-left: 15px;
+    grid-area: c2;
+}
+#citationt1 {
+    margin-bottom:20px;
+    grid-area: cite1;
+}
+#citation2 {
+    margin-bottom:20px;
+    grid-area: cite2;
+}
+#actorheading1 {
+    font-style: bold;
+    font-size: 15pt;
+    grid-area:ah1;
+}
+#actorheading2 {
+    font-style: bold;
+    font-size: 15pt;
+    grid-area:ah2;
+}
+#actor1img {
+    grid-area: ai1;
+}
+#actor2img {
+    grid-area: ai2;
+}
+#actor3img {
+    grid-area: ai3;
+}
+#actor4img {
+    grid-area: ai4;
+}
+#actor5img {
+    grid-area: ai5;
+}
+#actor6img {
+    grid-area: ai6;
+}
+#actor7img {
+    grid-area: ai7;
+}
+#actor8img {
+    grid-area: ai8;
+}
+#actor1info {
+    grid-area: ain1;
+}
+#actor2info {
+    grid-area: ain2;
+}
+#actor3info {
+    grid-area: ain3;
+}
+#actor4info {
+    grid-area: ain4;
+}
+#actor5info {
+    grid-area: ain5;
+}
+#actor6info {
+    grid-area: ain6;
+}
+#actor7info {
+    grid-area: ain7;
+}
+#actor8info {
+    grid-area: ain8;
+}
+#personalimg {
+    width: 50%;
+    text-align:center;
+}
+table {
+    width : 100%;
+}
+td {
+    width: 50%;
+    padding: 15px;
+}
+#theatre1 {
+    grid-area: t1;
+}
+#theatre2 {
+    grid-area: t2;
+}
+footer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
